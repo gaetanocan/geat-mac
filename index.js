@@ -5,7 +5,7 @@ class GreatMac {
   
     setMacData(key, value) {
       this.macData[key] = value;
-      console.log(`Set Great Mac data for key '${key}':`, value);
+      console.log(`Set Great Mac data for key '${key}'+`, value);
     }
   
     getMacData(key) {
